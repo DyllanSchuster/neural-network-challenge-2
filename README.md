@@ -1,1 +1,4 @@
 # neural-network-challenge-2
+Tasked with creating a neural network that HR can use to predict whether employees are likely to leave the company. Additionally, HR believes that some employees may be better suited to other departments, so you are also asked to predict the department that best fits each employee. These two columns should be predicted using a branched neural network.U
+
+Utilizing a dataframe containing 25 potential features, of 27 where 2 are target variabes, attrition, and department. I randomly chose 10 to be my features. I encoded the categoricals objects, using OneHotEncoder and LabelEncoder. After preprocessing, I created a branch layered neural network to have an output for the classification of attrition, and another branch for the multiclassification for Department. After I compiled, fitted, and evaluated the model using the model_accuracy metric.  Finally, I summarized my findings. 
